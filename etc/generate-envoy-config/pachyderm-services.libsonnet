@@ -129,8 +129,7 @@
     routes: [
       {
         match: {
-          //prefix: '/api/',
-          prefix: '/pfs_v2',
+          prefix: '/api/',
         },
         route: {
           cluster: 'pachd-restgateway',
